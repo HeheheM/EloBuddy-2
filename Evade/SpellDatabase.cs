@@ -64,8 +64,6 @@ namespace Evade
                 new SpellData
                 {
                         ChampionName = "Azir",
-                        ChampionName = "Nami",
-                        ChampionName = "Ahri",
                         SpellName = "summonersnowball",
                         Slot = SpellSlot.Summoner1,
                         Delay = 0,
@@ -80,6 +78,40 @@ namespace Evade
                 });
 
             #endregion Properties.Constants.AllChampions
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Ahri",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Nami",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
 
             #region Aatrox
 
