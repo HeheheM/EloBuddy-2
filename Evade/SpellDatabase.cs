@@ -70,7 +70,7 @@ namespace Evade
                         MissileSpeed = 1300,
                         DangerValue = 1,
                         IsDangerous = true,
-                        MissileSpellName = "disabled/TestCubeRender",
+                        MissileSpellName = "SummonerSnowball",
                         ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
 
                 });
