@@ -58,7 +58,141 @@ namespace Evade
 
             #endregion Test
 
-            #region Properties.Constants.AllChampions
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Aatrox",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Ahri",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Akali",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Alistar",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Amumu",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Anivia",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Annie",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Ashe",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
 
             Spells.Add(
                 new SpellData
@@ -77,12 +211,112 @@ namespace Evade
 
                 });
 
-            #endregion Properties.Constants.AllChampions
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Bard",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
 
             Spells.Add(
                 new SpellData
                 {
-                        ChampionName = "Ahri",
+                        ChampionName = "Blitzcrank",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Brand",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Braum",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Caitlyn",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Cassiopeia",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
+
+                });
+
+            Spells.Add(
+                new SpellData
+                {
+                        ChampionName = "Cho'Gath",
                         SpellName = "summonersnowball",
                         Slot = SpellSlot.Summoner1,
                         Delay = 0,
