@@ -63,7 +63,6 @@ namespace Evade
             Spells.Add(
                 new SpellData
                 {
-                        DisplayName = "Mark",
                         ChampionName = "AllChampions",
                         SpellName = "summonersnowball",
                         Slot = SpellSlot.Summoner1,
