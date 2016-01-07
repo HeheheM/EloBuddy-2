@@ -58,6 +58,29 @@ namespace Evade
 
             #endregion Test
 
+            #region Properties.Constants.AllChampions
+
+            Spells.Add(
+                new SpellData
+                {
+                    CharName = Config.Constants.AllChampions,
+                    Dangerlevel = SpellDangerLevel.Low,
+                    MissileName = "SummonerSnowball",
+                    Name = "Poro Throw",
+                    ProjectileSpeed = 1300,
+                    Radius = 60,
+                    Range = 1600,
+                    SpellDelay = 0,
+                    SpellKey = SpellSlot.Q,
+                    SpellName = "summonersnowball",
+                    ExtraSpellNames = new[] {"summonerporothrow",},
+                    SpellType = SpellType.Line,
+                    CollisionObjects = new[] {CollisionObjectType.EnemyChampions},
+
+                });
+
+            #endregion Properties.Constants.AllChampions
+
             #region Aatrox
 
             Spells.Add(
