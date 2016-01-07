@@ -63,19 +63,18 @@ namespace Evade
             Spells.Add(
                 new SpellData
                 {
-                    CharName = Config.Constants.AllChampions,
-                    Dangerlevel = SpellDangerLevel.Low,
-                    MissileName = "SummonerSnowball",
+                    ChampionName = ObjectManager.Player.ChampionName,
+                    SpellName = "summonersnowball",
+                    Type = SkillShotType.SkillshotMissileLine,
                     Name = "Poro Throw",
-                    ProjectileSpeed = 1300,
+                    MissileSpeed = 1300,
                     Radius = 60,
                     Range = 1600,
-                    SpellDelay = 0,
-                    SpellKey = SpellSlot.Q,
-                    SpellName = "summonersnowball",
-                    ExtraSpellNames = new[] {"summonerporothrow",},
-                    SpellType = SpellType.Line,
+                    Delay = 0,
+                    Slot = SpellSlot.Q,
+                    DangerValue = 2,
                     CollisionObjects = new[] {CollisionObjectType.EnemyChampions},
+                    MissileSpellName = "SummonerSnowball",
 
                 });
 
