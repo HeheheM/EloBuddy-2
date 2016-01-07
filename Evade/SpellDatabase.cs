@@ -63,7 +63,9 @@ namespace Evade
             Spells.Add(
                 new SpellData
                 {
-                        ChampionName = hero.ChampionName,
+                        ChampionName = "Azir",
+                        ChampionName = "Nami",
+                        ChampionName = "Ahri",
                         SpellName = "summonersnowball",
                         Slot = SpellSlot.Summoner1,
                         Delay = 0,
