@@ -71,7 +71,6 @@ namespace Evade
                         DangerValue = 1,
                         IsDangerous = true,
                         MissileSpellName = "SummonerSnowball",
-                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
 
                 });
 
