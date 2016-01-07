@@ -63,18 +63,18 @@ namespace Evade
             Spells.Add(
                 new SpellData
                 {
-                    ChampionName = ObjectManager.Player.ChampionName,
-                    SpellName = "summonersnowball",
-                    Type = SkillShotType.SkillshotMissileLine,
-                    Name = "Poro Throw",
-                    MissileSpeed = 1300,
-                    Radius = 60,
-                    Range = 1600,
-                    Delay = 0,
-                    Slot = SpellSlot.Q,
-                    DangerValue = 2,
-                    CollisionObjects = new[] {CollisionObjectType.EnemyChampions},
-                    MissileSpellName = "SummonerSnowball",
+                        DisplayName = "Mark",
+                        ChampionName = "AllChampions",
+                        SpellName = "summonersnowball",
+                        Slot = SpellSlot.Summoner1,
+                        Delay = 0,
+                        Range = 1600,
+                        Radius = 60,
+                        MissileSpeed = 1300,
+                        DangerValue = 1,
+                        IsDangerous = true,
+                        MissileSpellName = "disabled/TestCubeRender",
+                        ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
 
                 });
 
